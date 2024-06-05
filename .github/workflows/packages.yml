@@ -60,10 +60,6 @@ jobs:
                 symfony: ["~6.1.0", "~6.2.0"]
                 package: "${{ fromJson(needs.list.outputs.packages) }}"
 
-                include:
-                    -   php: "8.2"
-                        symfony: "~6.2.0"
-
         steps:
             -
                 uses: actions/checkout@v2
@@ -102,7 +98,7 @@ jobs:
             -
                 name: Validate composer.json
                 if: ${{ true != contains( matrix.package, 'Pack' ) }}
-                run: echo "Validating {{ matrix.package }}" && composer validate --ansi --strict
+                run: composer validate --ansi --strict
                 working-directory: "src/Monofony/${{ matrix.package }}"
 
             -
