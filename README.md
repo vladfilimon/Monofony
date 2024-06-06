@@ -1,12 +1,9 @@
 <h1 align="center">
-    <img src="https://github.com/Monofony/Monofony/raw/0.x/docs/_images/doc_logo.png" alt="Monofony Logo" />
+    <img src="https://github.com/vladfilimon/Monofony/raw/0.x/docs/_images/doc_logo.png" alt="Monofony Logo" />
     <br />
-    <a href="https://github.com/Monofony/Monofony/actions" title="Build status" target="_blank">
-        <img src="https://github.com/Monofony/Monofony/workflows/Application/badge.svg" />
+    <a href="https://github.com/vladfilimon/Monofony/actions?branch=dev" title="Build status" target="_blank">
+        <img src="https://github.com/vladfilimon/Monofony/workflows/Application/badge.svg?branch=dev" />
     </a>
-    <a href="https://scrutinizer-ci.com/g/Monofony/Monofony/" title="Scrutinizer" target="_blank">
-        <img src="https://img.shields.io/scrutinizer/g/Monofony/Monofony.svg" />
-    </a>    
 </h1>
 
 Monofony is an Open Source micro-framework on top of [**Symfony**](https://symfony.com) & [**Sylius**](https://sylius.com).
@@ -29,7 +26,7 @@ Documentation is available at [docs.monofony.com](https://docs.monofony.com).
 🐈 Demo
 -------
 
-The demo project on [Github](https://github.com/Monofony/Demo).
+The demo project on [Github](https://github.com/vladfilimon/Demo).
 See our [Monofony live demo](https://demo.monofony.com).
 
 📦 Packs
@@ -82,10 +79,10 @@ Would like to help us and build the best symfony micro-framework using Sylius? F
 📃 License
 ----------
 
-Monofony is completely free and released under the [MIT License](https://github.com/Monofony/SymfonyStarter/blob/master/LICENSE).
+Monofony is completely free and released under the [MIT License](https://github.com/vladfilimon/SymfonyStarter/blob/master/LICENSE).
 
 ✍️ Authors
 ----------
 
 Monofony was originally created by [Loïc Frémont](https://twitter.com/loic_425).
-See the list of [contributors from our community](https://github.com/Monofony/SymfonyStarter/contributors).
+See the list of [contributors from our community](https://github.com/vladfilimon/SymfonyStarter/contributors).
