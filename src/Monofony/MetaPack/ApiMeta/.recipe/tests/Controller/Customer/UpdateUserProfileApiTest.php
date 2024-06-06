@@ -25,7 +25,7 @@ final class UpdateUserProfileApiTest extends JsonApiTestCase
 
         $customer = AppUserFactory::find(['username' => 'sylius'])->getCustomer();
 
-        $this->client->request('PUT', '/api/customers/'.$customer->getId());
+        $this->client->request('PUT', '/api/customers/'.$customer->getId(), [], [], ['CONTENT_TYPE' => 'application/ld+json']);
 
         $response = $this->client->getResponse();
         $this->assertResponse($response, 'error/access_denied_response', Response::HTTP_UNAUTHORIZED);
